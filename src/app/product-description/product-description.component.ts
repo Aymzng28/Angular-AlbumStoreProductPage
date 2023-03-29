@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { subscribeOn } from 'rxjs/operator/subscribeOn';
 import { ProductService } from '../product.service';
-import { Album } from 'app/album';
+import { Album } from '../album';
 
 @Component({
   selector: 'app-product-description',
